@@ -5,7 +5,9 @@ An Agents & Artifacts (A&A) container for deploying socio-technical networks in 
 # Prerequisites
 
 This project is built on top of JaCaMo v0.5.
+
 1. Download and configure the [JaCaMo platform](http://jacamo.sourceforge.net/) version 0.5 (!).
+
 2. Make sure the JACAMO_HOME variable is set. You can do so using: `export JACAMO_HOME=<...>`.
 
 # Note
@@ -38,7 +40,7 @@ You can run the demo application with Philips Hue and TI SensorTag. See `src/agt
 # Resources
 
 Feel free to play around with the A&A container. Some pointers to get you started:
-- Rafael H Bordini, Jomi Fred Hubner, and Michael Wooldridge. Programming multi-agent systems in AgentSpeak using Jason, volume 8. John Wiley & Sons, 2007.
+- Rafael H Bordini, Jomi Fred Hubner, and Michael Wooldridge. Programming multi-agent systems in AgentSpeak using Jason, volume 8. John Wiley & Sons, 2007.
 - [Multi-Agent Programming Course](http://www.emse.fr/~boissier/enseignement/maop16/) 
 
 
