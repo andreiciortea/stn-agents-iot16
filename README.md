@@ -24,13 +24,14 @@ Both JaCaMo and the STN platform are undergoing major changes. To run this proje
 
 4. Start the A&A container via the JaCaMo Eclipse plugin or using the provided `jacamo` script: `./scripts/jacamo swot_agents.jcm`
 
-5. Register devices to the CoRE RD: `./scripts/rd-register-devices.sh`
+5. Register devices to the CoRE RD using the `rd-register-devices.sh` script in the `scripts/` folder.
 
 6. To deregister / register the wristband:
 
 ```
-./scripts/rd-deregister-wristband.sh
-./scripts/rd-register-wristband.sh
+cd scripts/
+./rd-deregister-wristband.sh
+./rd-register-wristband.sh
 ```
 
 # Philips Hue and TI SensorTag
